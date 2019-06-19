@@ -1,0 +1,1 @@
+This first project is a soft goodbye to bash and a easy intro to C.  
