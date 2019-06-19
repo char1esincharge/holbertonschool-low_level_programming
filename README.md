@@ -1,0 +1,1 @@
+The following projects are an introduction to C and will have students start writing executable programs in C.
