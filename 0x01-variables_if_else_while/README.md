@@ -1,0 +1,1 @@
+This project is focused on writing programs in C with heavy emphasis on variables, if...else statements and while loops, amongst other things. Code must be written Betty style and must compile with -Wall -Werror -Wextra and -pedantic flags on.    
