@@ -4,7 +4,7 @@
  *
  * return: void
  */
-void print_times_table(int n)
+void print_times_table(void)
 {
 	int i, j, k;
 
@@ -18,19 +18,24 @@ void print_times_table(int n)
 				k = i * j;
 				if (k > 9 && k <= 99)
 				{
-					_putchar(','); _putchar(' '); _putchar(' ');
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(k / 10 + '0');
 					_putchar(k % 10 + '0');
 				}
 				else if (k < 10)
 				{
-					_putchar(','); _putchar(' '); _putchar(' ');
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(' ');
 					_putchar(k + '0');
 				}
 				else
 				{
-					_putchar(','); _putchar(' ');
+					_putchar(',');
+					_putchar(' ');
 					_putchar(k / 100 + '0');
 					_putchar(k / 10 % 10 + '0');
 					_putchar(k % 10 + '0');
