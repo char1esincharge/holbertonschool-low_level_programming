@@ -1,4 +1,3 @@
-    
 #include <stdio.h>
 #include "holberton.h"
 
@@ -7,9 +6,8 @@
  * @a: a pointer to an int
  * @n: the number of elements of the array to be printed
  * Return: nothing
- **/s
+ **/
 
-ys
 void print_array(int *a, int n)
 {
 	int i;
